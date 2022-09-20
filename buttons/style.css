@@ -1,1 +1,50 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.button {
+  cursor: pointer;
+  background-color: #858585;
+  color: #fffcfc;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.black-on-white {
+  cursor: pointer;
+  background-color: #202020;
+  color: #d4d3d3;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.red-on-white {
+  cursor: pointer;
+  background-color: #c04141;
+  color: #f1e8e8;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.green-on-white {
+  cursor: pointer;
+  background-color: #086d10;
+  color: #cef1c9;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.blue-on-white {
+  cursor: pointer;
+  background-color: #310cb4;
+  color: #e2e1f5;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
