@@ -58,9 +58,28 @@
     width:  60px;
     border-radius: 5px;
     
+
 }
 
 .button:hover {
     background-color: #004369;
     transition: background-color 0.5s
+}
+
+.fill {
+    padding: 20px;
+}
+
+// sizes
+
+.big-button {
+    height: 60px;
+    width: 90px;
+    font-size: 20px;
+}
+
+.extra-big {
+    height: 90px;
+    width: 140px;
+    font-size: 30px;
 }

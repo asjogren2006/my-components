@@ -53,4 +53,20 @@
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
+
+.fill {
+  padding: 20px;
+}
+
+.big-button {
+  height: 60px;
+  width: 90px;
+  font-size: 20px;
+}
+
+.extra-big {
+  height: 90px;
+  width: 140px;
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
