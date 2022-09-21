@@ -1,6 +1,8 @@
 
 // HAS HELPERS
 
+
+
 .button {
   cursor: pointer;
   background-color: rgb(133, 133, 133);
@@ -9,7 +11,10 @@
   height: 35px;
   width:  60px;
   border-radius: 5px;
+
 }
+
+
 
 .black-on-white {
     cursor: pointer;
@@ -19,6 +24,7 @@
     height: 35px;
     width:  60px;
     border-radius: 5px;
+
 }
 
 .red-on-white {
@@ -54,3 +60,7 @@
     
 }
 
+.button:hover {
+    background-color: #004369;
+    transition: background-color 0.5s
+}
