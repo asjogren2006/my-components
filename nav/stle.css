@@ -9,9 +9,57 @@
   font-family: 'Inter', sans-serif;
 }
 
-.navbar .logo {
+.logo {
   color: #FFFCFC;
   font-size: 40px;
   padding: 4px;
+  left: 18px;
+  position: relative;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #858585;
+  color: #fffcfc;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+  left: 330px;
+  top: -45px;
+  position: relative;
+}
+
+.button2 {
+  cursor: pointer;
+  background-color: #858585;
+  color: #fffcfc;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+  left: 360px;
+  top: -45px;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #004369;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.button2:hover {
+  background-color: #004369;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.bg-logo {
+  background-color: grey;
+  border-radius: 10px;
+  border-color: #a0a0a0;
+  border-style: solid;
+  border-width: 3px;
 }
 /*# sourceMappingURL=stle.css.map */
