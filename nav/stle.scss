@@ -45,7 +45,7 @@
         position: relative;
     }
 
-    // extra buttons
+    // extra buttons you can add
 
     .button3 {
         cursor: pointer;
@@ -73,7 +73,7 @@
         position: relative;
     }
 
-    // end of extras
+    // end of extra buttons
 
     .button:hover {
         background-color: #004369;
@@ -93,7 +93,7 @@
         transition: background-color 0.5s;
     }
      
-    // helpers
+    // this is for a background logo, but it into span class
 
 
     .bg-logo {
@@ -110,6 +110,7 @@
 
     .dark-blue {
         background-color: #0082A3;
+        
     }
 
     // button options
