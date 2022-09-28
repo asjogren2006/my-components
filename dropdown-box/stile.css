@@ -1,4 +1,41 @@
-.dropdown-box {
-  color: red;
+.drop {
+  background-color: #858585;
+  color: #FFFCFC;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown-options a {
+  color: black;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+}
+
+.dropdown-options a:hover {
+  background-color: #afafaf;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown:hover .drop {
+  background-color: #858585;
 }
 /*# sourceMappingURL=stile.css.map */
