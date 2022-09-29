@@ -3,16 +3,23 @@
 }
 
 .words {
-  width: 300px;     
+  width: 300px;
+  text-align: center;    
 
     
     h3 {
         font-size: 30px;
+        
     }
 
    
 }
 
-.card-type-1 {
-    
+.card-1{
+    // border-color: black;
+    // border-width: 1px;
+    // border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 350px;
+    height: 500px ;
 }
