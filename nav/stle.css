@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+.body {
+  display: inline-block;
+}
+
 .navbar {
   background-color: #00A5CF;
   height: 60px;
@@ -88,6 +92,12 @@
   transition: background-color 0.5s;
 }
 
+.button4:hover {
+  background-color: #004369;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
 .bg-logo {
   background-color: grey;
   border-radius: 10px;
@@ -113,5 +123,125 @@
 .no-bg-with-hover {
   background-color: transparent;
   font-size: 17px;
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar {
+    background-color: #00A5CF;
+    width: 550px;
+  }
+  .button {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: 290px;
+    top: -45px;
+    position: relative;
+  }
+  .button2 {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: 290px;
+    top: -45px;
+    position: relative;
+  }
+  .button3 {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: 290px;
+    top: -45px;
+    position: relative;
+  }
+  .button4 {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: 290px;
+    top: -45px;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .navbar {
+    background-color: #00A5CF;
+    height: 240px;
+    font-family: 'Inter', sans-serif;
+    width: 350px;
+  }
+  .button {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: 140px;
+    top: 10px;
+    position: relative;
+  }
+  .logo {
+    color: #FFFCFC;
+    font-size: 40px;
+    padding: 4px;
+    left: 30px;
+    top: 1px;
+    position: relative;
+  }
+  .button2 {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: 75px;
+    top: 50px;
+    position: relative;
+  }
+  .button3 {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: 11px;
+    top: 90px;
+    position: relative;
+  }
+  .button4 {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: -54px;
+    top: 130px;
+    position: relative;
+  }
 }
 /*# sourceMappingURL=stle.css.map */
