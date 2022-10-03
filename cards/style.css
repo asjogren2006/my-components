@@ -1,17 +1,21 @@
 .image {
-  width: 350px;
+  width: 100%;
 }
 
 .words {
   width: 300px;
   text-align: center;
+  padding: 15px;
 }
 
 .words h3 {
   font-size: 30px;
 }
 
-.card-1 {
+.card {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 350px;
