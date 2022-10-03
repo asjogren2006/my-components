@@ -128,7 +128,7 @@
 @media only screen and (max-width: 550px) {
   .navbar {
     background-color: #00A5CF;
-    width: 550px;
+    width: 540px;
   }
   .button {
     cursor: pointer;
