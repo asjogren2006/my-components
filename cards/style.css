@@ -36,9 +36,27 @@
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 350px;
-  height: 550px;
+  height: 570px;
   border-radius: 10px;
   font-family: 'Inter', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.with-button .image {
+  width: 100%;
+  height: 100%;
 }
 
 .with-button .button {
@@ -49,17 +67,6 @@
   height: 35px;
   width: 60px;
   border-radius: 5px;
-}
-
-.with-button .btn {
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  left: 70px;
 }
 
 .with-button .button:hover {
