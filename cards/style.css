@@ -1,18 +1,23 @@
+.fill {
+  padding: 20px;
+}
+
 .image {
   width: 100%;
+  border-radius: 10px;
 }
 
 .words {
   width: 300px;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
 
 .words h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
-.card {
+.no-button {
   border-color: black;
   border-width: 1px;
   border-style: solid;
@@ -20,5 +25,46 @@
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 350px;
   height: 500px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.with-button .card-with-btn {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 350px;
+  height: 550px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.with-button .button {
+  cursor: pointer;
+  background-color: #858585;
+  color: #fffcfc;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.with-button .btn {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 70px;
+}
+
+.with-button .button:hover {
+  background-color: #004369;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 /*# sourceMappingURL=style.css.map */
