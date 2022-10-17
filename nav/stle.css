@@ -75,6 +75,19 @@
   position: relative;
 }
 
+.button5 {
+  cursor: pointer;
+  background-color: #858585;
+  color: #fffcfc;
+  border: none;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+  left: 1590px;
+  top: -53px;
+  position: relative;
+}
+
 .button:hover {
   background-color: #004369;
   -webkit-transition: background-color 0.5s;
@@ -94,6 +107,12 @@
 }
 
 .button4:hover {
+  background-color: #004369;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.button5:hover {
   background-color: #004369;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
@@ -184,7 +203,7 @@
 @media only screen and (max-width: 350px) {
   .navbar {
     background-color: #00A5CF;
-    height: 240px;
+    height: 280px;
     font-family: 'Inter', sans-serif;
     width: 100%;
   }
@@ -242,6 +261,18 @@
     border-radius: 5px;
     left: -54px;
     top: 130px;
+    position: relative;
+  }
+  .button5 {
+    cursor: pointer;
+    background-color: #858585;
+    color: #fffcfc;
+    border: none;
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    left: -118px;
+    top: 163px;
     position: relative;
   }
 }
